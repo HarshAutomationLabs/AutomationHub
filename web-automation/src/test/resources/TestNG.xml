@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Innit Browser Suite" parallel="tests"
+	thread-count="5">
+
+	<test name="Chrome Test">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<!-- <class name="com.innit.testcase.web.HomePageTest" />
+			<class name="com.innit.testcase.web.PartnersPageTest" />
+			<class name="com.innit.testcase.web.AboutUsPageTest" />
+			<class name="com.innit.testcase.web.PressPageTest" /> -->
+			<class name="com.innit.testcase.web.MealPageTest" />
+		</classes>
+	</test>
+	<test name="Firefox Test">
+		<parameter name="browser" value="Mozilla" />
+		<classes>
+			<!-- <class name="com.innit.testcase.web.HomePageTest" />
+			<class name="com.innit.testcase.web.PartnersPageTest" />
+			<class name="com.innit.testcase.web.AboutUsPageTest" />
+			<class name="com.innit.testcase.web.PressPageTest" /> -->
+			<class name="com.innit.testcase.web.MealPageTest" />
+		</classes>
+	</test>
+	<!-- <test name="Edge Test">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="com.innit.testcase.web.HomePageTest" />
+			<class name="com.innit.testcase.web.PartnersPageTest" />
+			<class name="com.innit.testcase.web.AboutUsPageTest" />
+			<class name="com.innit.testcase.web.PressPageTest" />
+			<class name="com.innit.testcase.web.MealPageTest" />
+		</classes>
+	</test>
+	<test name="IPAD Test">
+		<parameter name="browser" value="iPad" />
+		<classes>
+			<class name="com.innit.testcase.mobile.HomePageTest" />
+			<class name="com.innit.testcase.mobile.PartnersPageTest" />
+			<class name="com.innit.testcase.mobile.AboutUsPageTest" />
+			<class name="com.innit.testcase.mobile.PressPageTest" />
+		</classes>
+	</test>
+	<test name="iPhone_5 Test">
+		<parameter name="browser" value="iPhone_5" />
+		<classes>
+			<class name="com.innit.testcase.mobile.HomePageTest" />
+			<class name="com.innit.testcase.mobile.PartnersPageTest" />
+			<class name="com.innit.testcase.mobile.AboutUsPageTest" />
+			<class name="com.innit.testcase.mobile.PressPageTest" />
+		</classes>
+	</test>
+	<test name="iPhone_6 Test">
+		<parameter name="browser" value="iPhone_6" />
+		<classes>
+			<class name="com.innit.testcase.mobile.HomePageTest" />
+			<class name="com.innit.testcase.mobile.PartnersPageTest" />
+			<class name="com.innit.testcase.mobile.AboutUsPageTest" />
+			<class name="com.innit.testcase.mobile.PressPageTest" />
+		</classes>
+	</test>
+	<test name="iPhone_6_Plus Test">
+		<parameter name="browser" value="iPhone_6_Plus" />
+		<classes>
+			<class name="com.innit.testcase.mobile.HomePageTest" />
+			<class name="com.innit.testcase.mobile.PartnersPageTest" />
+			<class name="com.innit.testcase.mobile.AboutUsPageTest" />
+			<class name="com.innit.testcase.mobile.PressPageTest" />
+		</classes>
+	</test>
+	<test name="iPhone_7 Test">
+		<parameter name="browser" value="iPhone_7" />
+		<classes>
+			<class name="com.innit.testcase.mobile.HomePageTest" />
+			<class name="com.innit.testcase.mobile.PartnersPageTest" />
+			<class name="com.innit.testcase.mobile.AboutUsPageTest" />
+			<class name="com.innit.testcase.mobile.PressPageTest" />
+		</classes>
+	</test>
+	<test name="Galaxy_Note_3 Test">
+		<parameter name="browser" value="Galaxy_Note_3" />
+		<classes>
+			<class name="com.innit.testcase.mobile.HomePageTest" />
+			<class name="com.innit.testcase.mobile.PartnersPageTest" />
+			<class name="com.innit.testcase.mobile.AboutUsPageTest" />
+			<class name="com.innit.testcase.mobile.PressPageTest" />
+		</classes>
+	</test> -->
+</suite> 
