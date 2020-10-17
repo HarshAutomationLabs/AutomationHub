@@ -1,0 +1,5 @@
+testcases\Delete_Product_testcases.class
+testcases\Create_Product_testcases.class
+testcases\Login_testcases.class
+testcases\Update_Product_testcases.class
+testcases\Products_Listing_testcases.class

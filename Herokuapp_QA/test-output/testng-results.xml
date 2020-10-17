@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-28T22:58:46 IST" name="Suite" finished-at="2020-09-28T23:01:54 IST" duration-ms="188522">
+    <groups>
+    </groups>
+    <test started-at="2020-09-28T22:58:46 IST" name="Test" finished-at="2020-09-28T23:01:54 IST" duration-ms="188522">
+      <class name="testcases.Products_Listing_testcases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Products_Listing_testcases@309e345f]" started-at="2020-09-28T22:59:53 IST" name="setUp" finished-at="2020-09-28T23:00:06 IST" duration-ms="12510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Products_Listing_testcases@309e345f]" started-at="2020-09-28T23:00:06 IST" name="navigateToProducts" finished-at="2020-09-28T23:00:07 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="verifyProductList()[pri:0, instance:testcases.Products_Listing_testcases@309e345f]" started-at="2020-09-28T23:00:07 IST" name="verifyProductList" finished-at="2020-09-28T23:00:07 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductList -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testcases.Products_Listing_testcases@309e345f]" started-at="2020-09-28T23:00:07 IST" name="setDown" finished-at="2020-09-28T23:00:10 IST" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testcases.Products_Listing_testcases -->
+      <class name="testcases.Create_Product_testcases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:05 IST" name="setUp" finished-at="2020-09-28T22:59:17 IST" duration-ms="11426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:17 IST" name="navigateToProducts" finished-at="2020-09-28T22:59:18 IST" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="createProductsWithValidData()[pri:0, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:18 IST" name="createProductsWithValidData" finished-at="2020-09-28T22:59:21 IST" duration-ms="2910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductsWithValidData -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:21 IST" name="navigateToProducts" finished-at="2020-09-28T22:59:22 IST" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="createProductWithEmptyFiels()[pri:1, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:22 IST" name="createProductWithEmptyFiels" finished-at="2020-09-28T22:59:24 IST" duration-ms="1898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductWithEmptyFiels -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:24 IST" name="navigateToProducts" finished-at="2020-09-28T22:59:24 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="verifyUniqueField()[pri:2, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:24 IST" name="verifyUniqueField" finished-at="2020-09-28T22:59:47 IST" duration-ms="22494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniqueField -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:47 IST" name="navigateToProducts" finished-at="2020-09-28T22:59:48 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="verifyFieldLimits()[pri:3, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:48 IST" name="verifyFieldLimits" finished-at="2020-09-28T22:59:51 IST" duration-ms="3715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFieldLimits -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testcases.Create_Product_testcases@7a4ccb53]" started-at="2020-09-28T22:59:51 IST" name="setDown" finished-at="2020-09-28T22:59:53 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testcases.Create_Product_testcases -->
+      <class name="testcases.Update_Product_testcases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:00:10 IST" name="setUp" finished-at="2020-09-28T23:00:22 IST" duration-ms="12098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:00:22 IST" name="navigateToProducts" finished-at="2020-09-28T23:00:22 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="updateProductsWithValidData()[pri:0, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:00:22 IST" name="updateProductsWithValidData" finished-at="2020-09-28T23:00:26 IST" duration-ms="3184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProductsWithValidData -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:00:26 IST" name="navigateToProducts" finished-at="2020-09-28T23:00:26 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="createProductWithEmptyFiels()[pri:1, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:00:26 IST" name="createProductWithEmptyFiels" finished-at="2020-09-28T23:00:29 IST" duration-ms="2740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductWithEmptyFiels -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:00:29 IST" name="navigateToProducts" finished-at="2020-09-28T23:00:30 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="verifyUniqueField()[pri:2, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:00:30 IST" name="verifyUniqueField" finished-at="2020-09-28T23:01:33 IST" duration-ms="62977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUniqueField -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:01:33 IST" name="navigateToProducts" finished-at="2020-09-28T23:01:35 IST" duration-ms="1840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="verifyFieldLimits()[pri:3, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:01:35 IST" name="verifyFieldLimits" finished-at="2020-09-28T23:01:38 IST" duration-ms="3564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFieldLimits -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testcases.Update_Product_testcases@56a6d5a6]" started-at="2020-09-28T23:01:38 IST" name="setDown" finished-at="2020-09-28T23:01:41 IST" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testcases.Update_Product_testcases -->
+      <class name="testcases.Login_testcases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Login_testcases@33afa13b]" started-at="2020-09-28T22:58:46 IST" name="setUp" finished-at="2020-09-28T22:59:01 IST" duration-ms="15206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTestCase()[pri:0, instance:testcases.Login_testcases@33afa13b]" started-at="2020-09-28T22:59:01 IST" name="loginTestCase" finished-at="2020-09-28T22:59:03 IST" duration-ms="1783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testcases.Login_testcases@33afa13b]" started-at="2020-09-28T22:59:03 IST" name="setDown" finished-at="2020-09-28T22:59:05 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testcases.Login_testcases -->
+      <class name="testcases.Delete_Product_testcases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Delete_Product_testcases@18ce0030]" started-at="2020-09-28T23:01:41 IST" name="setUp" finished-at="2020-09-28T23:01:54 IST" duration-ms="13773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigateToProducts()[pri:0, instance:testcases.Delete_Product_testcases@18ce0030]" started-at="2020-09-28T23:01:54 IST" name="navigateToProducts" finished-at="2020-09-28T23:01:54 IST" duration-ms="172" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at pages.Dashboard.navigateToProducts(Dashboard.java:25)
+at pages.Dashboard.<init>(Dashboard.java:20)
+at testcases.Delete_Product_testcases.navigateToProducts(Delete_Product_testcases.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProducts -->
+        <test-method signature="deleteProduct()[pri:0, instance:testcases.Delete_Product_testcases@18ce0030]" started-at="2020-09-28T23:01:54 IST" name="deleteProduct" finished-at="2020-09-28T23:01:54 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at pages.Dashboard.navigateToProducts(Dashboard.java:25)
+at pages.Dashboard.<init>(Dashboard.java:20)
+at testcases.Delete_Product_testcases.navigateToProducts(Delete_Product_testcases.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testcases.Delete_Product_testcases@18ce0030]" started-at="2020-09-28T23:01:54 IST" name="setDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1601314314981" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testcases.Delete_Product_testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
