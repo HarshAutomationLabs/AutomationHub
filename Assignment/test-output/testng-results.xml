@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-16T23:23:59 IST" name="Suite" finished-at="2020-10-16T23:25:40 IST" duration-ms="101308">
+    <groups>
+    </groups>
+    <test started-at="2020-10-16T23:23:59 IST" name="Test" finished-at="2020-10-16T23:25:40 IST" duration-ms="101308">
+      <class name="testcases.CreateAccount_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:24:45 IST" name="setUp" finished-at="2020-10-16T23:24:59 IST" duration-ms="14056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="authentication()[pri:1, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:24:59 IST" name="authentication" finished-at="2020-10-16T23:25:02 IST" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authentication -->
+        <test-method signature="validate_With_Empty_Email_Field()[pri:2, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:02 IST" name="validate_With_Empty_Email_Field" finished-at="2020-10-16T23:25:05 IST" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_With_Empty_Email_Field -->
+        <test-method signature="validate_With_Incorrect_Email()[pri:3, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:05 IST" name="validate_With_Incorrect_Email" finished-at="2020-10-16T23:25:09 IST" duration-ms="3476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_With_Incorrect_Email -->
+        <test-method signature="validate_With_Registered_Email()[pri:4, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:09 IST" name="validate_With_Registered_Email" finished-at="2020-10-16T23:25:13 IST" duration-ms="3760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_With_Registered_Email -->
+        <test-method signature="validate_With_UnRegistered_Email()[pri:5, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:13 IST" name="validate_With_UnRegistered_Email" finished-at="2020-10-16T23:25:17 IST" duration-ms="4244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_With_UnRegistered_Email -->
+        <test-method signature="validate_Email_In_PersonalFields()[pri:6, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:17 IST" name="validate_Email_In_PersonalFields" finished-at="2020-10-16T23:25:19 IST" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Email_In_PersonalFields -->
+        <test-method signature="validate_Empty_Personal_Info_Fields()[pri:7, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:19 IST" name="validate_Empty_Personal_Info_Fields" finished-at="2020-10-16T23:25:23 IST" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Empty_Personal_Info_Fields -->
+        <test-method signature="add_Personal_Information()[pri:8, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:23 IST" name="add_Personal_Information" finished-at="2020-10-16T23:25:28 IST" duration-ms="4760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_Personal_Information -->
+        <test-method signature="validate_Personal_Info_In_Address_Info()[pri:9, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:28 IST" name="validate_Personal_Info_In_Address_Info" finished-at="2020-10-16T23:25:30 IST" duration-ms="2059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Personal_Info_In_Address_Info -->
+        <test-method signature="add_Address_Information()[pri:10, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:30 IST" name="add_Address_Information" finished-at="2020-10-16T23:25:40 IST" duration-ms="9443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_Address_Information -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testcases.CreateAccount_TC@33afa13b]" started-at="2020-10-16T23:25:40 IST" name="setDown" finished-at="2020-10-16T23:25:40 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testcases.CreateAccount_TC -->
+      <class name="testcases.Login_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Login_TC@47542153]" started-at="2020-10-16T23:23:59 IST" name="setUp" finished-at="2020-10-16T23:24:13 IST" duration-ms="13954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="authentication()[pri:0, instance:testcases.Login_TC@47542153]" started-at="2020-10-16T23:24:13 IST" name="authentication" finished-at="2020-10-16T23:24:14 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authentication -->
+        <test-method signature="validateEmptyField()[pri:1, instance:testcases.Login_TC@47542153]" started-at="2020-10-16T23:24:14 IST" name="validateEmptyField" finished-at="2020-10-16T23:24:20 IST" duration-ms="6008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmptyField -->
+        <test-method signature="validateLoginWithIncorrectEmail()[pri:2, instance:testcases.Login_TC@47542153]" started-at="2020-10-16T23:24:20 IST" name="validateLoginWithIncorrectEmail" finished-at="2020-10-16T23:24:26 IST" duration-ms="5887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithIncorrectEmail -->
+        <test-method signature="validateLoginWithUnregisteredEmail()[pri:3, instance:testcases.Login_TC@47542153]" started-at="2020-10-16T23:24:26 IST" name="validateLoginWithUnregisteredEmail" finished-at="2020-10-16T23:24:32 IST" duration-ms="6513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithUnregisteredEmail -->
+        <test-method signature="validateLoginWithCorrectDetails()[pri:4, instance:testcases.Login_TC@47542153]" started-at="2020-10-16T23:24:32 IST" name="validateLoginWithCorrectDetails" finished-at="2020-10-16T23:24:45 IST" duration-ms="12353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithCorrectDetails -->
+        <test-method is-config="true" signature="setDown()[pri:0, instance:testcases.Login_TC@47542153]" started-at="2020-10-16T23:24:45 IST" name="setDown" finished-at="2020-10-16T23:24:45 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testcases.Login_TC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
